@@ -1,0 +1,11 @@
+.buyContainer {
+  height: 50%;
+  color: white;
+}
+.buyBid {
+  display: flex;
+  justify-content: space-around;
+}
+.buyPrice {
+  color: rgb(45, 175, 52);
+}

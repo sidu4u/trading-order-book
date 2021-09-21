@@ -1,0 +1,15 @@
+.buyButton {
+  border-radius: 5px;
+  width: 50%;
+  color: white;
+  background: rgb(45, 175, 52);
+}
+.sellButton {
+  border-radius: 5px;
+  width: 50%;
+  color: white;
+  background: rgb(250, 103, 45);
+}
+.header {
+  display: flex;
+}

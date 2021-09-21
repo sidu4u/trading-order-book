@@ -1,0 +1,15 @@
+.sellContainer {
+  height: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sellBid {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.sellPrice {
+  color: rgb(250, 103, 45);
+}
