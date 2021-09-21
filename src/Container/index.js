@@ -16,7 +16,7 @@ const Container = () => {
         price: 37000 + (Math.random() * 2000).toFixed(2)
       }
     ]);
-  });
+  }, []);
   const onSellClick = useCallback(() => {
     updateSells((sells) => [
       ...sells,
@@ -26,7 +26,7 @@ const Container = () => {
         price: 37000 + (Math.random() * 2000).toFixed(2)
       }
     ]);
-  });
+  }, []);
 
   return (
     <div className="container">
